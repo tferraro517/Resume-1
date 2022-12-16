@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    width: 100vw; 
+    font-family: 'Georgia', Arial, monospace;
+    background-image: url("/assets/images/backgroundpng.png");
+}
+/* profile picture */
+.Taryn {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    width: 25%;
+    margin-right: 24px;
+}
+/* link placement */
+.links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.section {
+    display: flex;
+    gap: 40px;
+    max-width: 100%;
+    margin-left: 100px;
+}
+
+.section h2 {
+    flex-basis: auto;
+}
+/* image placement */
+.img1 {
+   display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    align-items: center;
+  } 
+
+.Cat{
+    position: relative;
+}
+
+.text-img p {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ @media screen and (max-width: 768px) {
+    .header {
+        background-color: blue;
+        flex-direction: column;
+        width: 100%;
+    }
+} 
